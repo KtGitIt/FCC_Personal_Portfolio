@@ -1,0 +1,172 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* -----Fonts----- */
+/* font-family: 'Poppins', sans-serif;
+
+font-family: 'Varela Round', sans-serif; */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+#navbar {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  top: 0;
+  width: 100%;
+  height: 8vh;
+  background-color: #227c9d;
+  padding: 1.2rem;
+}
+
+.nav-list li {
+  list-style: none;
+  display: inline-block;
+  padding: 0.65rem 0.85rem;
+}
+.nav-list li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #fef9ef;
+  font-family: "Poppins", sans-serif;
+}
+#welcome-section {
+  height: 100vh;
+  background-image: url("../Images/undraw_static_website_0107.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 100px center;
+  background-color: #fef9ef;
+  text-align: center;
+}
+h1 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  font-size: 8rem;
+  padding-top: 10rem;
+  color: #227c9d;
+}
+#welcome-section p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  color: #eb6469;
+}
+#projects {
+  background-color: #1fb9ba;
+  padding: 3rem;
+  text-align: center;
+}
+h2 {
+  font-family: "Varela Round", sans-serif;
+  color: #fef9ef;
+  text-decoration: #fef9ef underline;
+  font-weight: bolder;
+  font-size: 2.95rem;
+  text-align: center;
+  padding: 3.5rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-gap: 4rem;
+  max-width: 1440px;
+  margin: 1rem auto 6rem auto;
+}
+.project-tile {
+  background-color: #466f7e;
+  border: 4px solid #466f7e;
+  border-radius: 5px;
+  box-shadow: 2px 6px 6px #1fb9ba;
+}
+
+.project-img {
+  width: 100%;
+}
+.project-tile a {
+  text-decoration: none;
+}
+
+.project-tile p {
+  padding: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  color: #fef9ef;
+}
+.project-tile p:hover {
+  text-decoration: 2px underline #fef9ef;
+}
+.project-more-btn {
+  display: inline-block;
+  background-color: #466f7e;
+  color: #fef9ef;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.65rem;
+  padding: 0.65rem 1.3rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+.project-more-btn:hover {
+  color: #1fb9ba;
+  background-color: #fef9ef;
+}
+.fas {
+  margin: 5px;
+}
+#contact {
+  background-color: #fef9ef;
+  text-align: center;
+  line-height: 2;
+  padding: 8rem 0;
+}
+h3 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 3.5em;
+  color: #227c9d;
+}
+#contact p {
+  font-family: "Varela Round", sans-serif;
+  color: #227c9d;
+  font-size: 1.75rem;
+}
+#contact li {
+  list-style: none;
+  display: inline-block;
+  padding: 1.65rem;
+}
+
+#profile-link,
+.contact-links {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.35rem;
+  text-decoration: none;
+  color: #eb6469;
+}
+.fab {
+  padding-right: 0.3rem;
+  color: #227c9d;
+}
+#profile-link:hover {
+  color: #227c9d;
+}
+@media (max-width: 850px) {
+  #navbar {
+    justify-content: center;
+  }
+  #welcome-section {
+    background-size: 100%;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  #contact li {
+    display: block;
+    padding: 0.5rem;
+  }
+}
