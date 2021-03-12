@@ -5,10 +5,7 @@
   margin: 0;
   padding: 0;
 }
-/* -----Fonts----- */
-/* font-family: 'Poppins', sans-serif;
 
-font-family: 'Varela Round', sans-serif; */
 html {
   font-size: 16px;
   scroll-behavior: smooth;
@@ -168,5 +165,18 @@ h3 {
   #contact li {
     display: block;
     padding: 0.5rem;
+  }
+}
+@media (max-width: 450px) {
+  #welcome-section {
+    background-position: bottom;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  .project-tile {
+    width: 80%;
   }
 }
